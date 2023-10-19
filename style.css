@@ -1,0 +1,59 @@
+body{
+    background-size: cover;
+}
+
+
+.heading{
+    margin-top: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 40px;
+    position:sticky;
+  top:0;
+  z-index:99;
+    
+}
+
+.heading button{
+float: right;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.big_image{
+    width:100%;
+    height: 50%;
+}
+
+#start ,#status{
+    font-size: 22px;
+}
+
+#canvas{
+    box-shadow: 3px 3px rgba(240, 167, 255, 0.789), -1em 0 .4em rgb(228, 132, 255);
+    background-color: seagreen;
+    margin: 30%;
+}
+
+h4{
+    background-color: rgb(156, 210, 255);
+    line-height: 2;
+    margin: 0px;
+    box-shadow: inset 5em 1em rgb(240, 145, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.modal-dialog{
+    width: 90%;
+}
+.instruction_image{
+    display: inline-block;
+    width: 45%;
+}
+
+video{
+    background: url('Game_consolePurple.png');
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
